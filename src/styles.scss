@@ -1,0 +1,188 @@
+/* You can add global styles to this file, and also import other style files */
+//@import '~@angular/material/prebuilt-themes/purple-green.css';
+//@import '../node_modules/@angular/material/prebuilt-themes/purple-green.css';
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200i,400,600,700');
+//@import './app-theme';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+$primary-color-dark:   #0097A7;
+$primary-color:        #00BCD4;
+$primary-color-light:  #B2EBF2;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #9E9E9E;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
+
+$font-family: 'Nunito Sans', sans-serif;
+
+.mat-app-background {
+  background-color: #2d2d2d;
+}
+
+.mat-input-element{
+  color: $secondary-text-color !important;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+pre {
+  width: 50vw;
+  max-height: 70vh;
+  font-size: 2vh;
+}
+
+code {
+  color: $primary-color-dark;
+  font-weight: bold;
+}
+.col-left {
+  width: 60vw;
+  float: left;
+}
+.col-right {
+  width: 20vw;
+  float: right;
+}
+.slide {
+  padding: 5vh 10vw;
+  //* {
+  //  font: {
+  //    family: $font-family;
+  //  }
+  //}
+  h1 {
+    color: $primary-color-text;
+    font: {
+      size: 5.9vw;
+      family: $font-family;
+
+    }
+  }
+  h2 {
+    color: $primary-color-text;
+    font: {
+      size: 4.0vw;
+      family: $font-family;
+
+    }
+  }
+  h3 {
+    color: $primary-color-text;
+    font: {
+      size: 2.25vw;
+      family: $font-family;
+    }
+  }
+  p {
+    color: $primary-color-text;
+    font: {
+      size: 3vmin;
+      family: $font-family;
+
+    }
+  }
+}
+
+.hint {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: black;
+  opacity: 0.2;
+}
+// https://codepen.io/ibrahimjabbari/pen/ozinB
+hr {
+  border: {
+    style: inset;
+    color: $divider-color;
+  }
+  &.h-1 {
+    border-width: 2px;
+  }
+  &.h-2 {
+    border-width: 1px;
+  }
+}
+
+hr.style15 {
+  border-top: 4px double #8c8b8b;
+  text-align: center;
+}
+hr.style15:after {
+  content: url("./angular-icon.png");
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 10px;
+  //background: #f0f0f0;
+  //color: #8c8b8b;
+  font-size: 18px;
+}
+
+img.avatar-img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 5vw;
+}
+
+p.avatar {
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  span {
+    margin-left: 2vw;
+    font-size: 2vw;
+  }
+}
+
+img.demo-gif {
+  position: fixed;
+  top: 40vh;
+  right: 10vw;
+}
+
+.p_animated {
+  border: 1px solid black;
+  background-color: $primary-color-dark;
+  color: $primary-color-text;
+  padding: 10px;
+}
+
+.hover-item {
+  width: 200px;
+  height: 50px;
+  margin: 4px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: $primary-color;
+  color: $primary-color-text;
+  cursor: pointer;
+  list-style: none;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.sequence-item {
+  width: 200px;
+  height: 50px;
+  margin: 4px;
+  text-align: center;
+  cursor: pointer;
+  list-style: none;
+  vertical-align: middle;
+  display: table-cell;
+}
