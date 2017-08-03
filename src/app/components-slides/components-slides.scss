@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+
+.italicized {
+  font-style: italic;
+}
+img {
+  transform: scale(0.3);
+}
+
+/* Navigation link styles */
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #607D8B;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+}
+
+/**
+ * this is garbage, can be better but this is not about scss right now
+ */
+.circle1 {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  border-radius: 50%;
+  background-color: green;
+}
+.circle2 {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+.circle3 {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.test-result {
+  margin: 10px 0;
+  border: 1px darkblue solid;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.block-item {
+  width: 40px;
+  height: 40px;
+  margin: 6px auto;
+  font-size: 40px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+
