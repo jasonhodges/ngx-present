@@ -1,0 +1,8 @@
+{
+  "slides": [
+    {"id": 1, "title": "Slide 1", "src": "assets/slide1.md"},
+    {"id": 2, "title": "Slide 2", "src": "assets/slide2.md"},
+    {"id": 3, "title": "Slide 3", "src": "assets/slide3.md"},
+    {"id": 4, "title": "List Animation", "src": "assets/list-animation.md"}
+  ]
+}
